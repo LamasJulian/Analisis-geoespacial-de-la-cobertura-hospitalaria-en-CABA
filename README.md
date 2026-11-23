@@ -10,7 +10,6 @@ El análisis completo está en [`cobertura_hospitalaria_caba.ipynb`](cobertura_h
 - **El tipo de hospital cambia el diagnóstico.** Solo 14 de los 36 son hospitales generales de agudos (los que atienden urgencias de cualquier vecino). Con ese filtro la Comuna 4 pasa de 13 a 2 hospitales, y las comunas 1, 5 y 13 quedan sin ninguno dentro de sus límites.
 - **Contar hospitales por comuna no alcanza.** Con un radio de 2,5 km (unos 30 minutos a pie) alrededor de cada hospital de agudos se cubre el 84,0% de la superficie de CABA. La Comuna 5 no tiene hospital propio pero queda cubierta al 100% por los de comunas vecinas.
 - **Las comunas con menor cobertura** son la 13 (53,2%), la 1 (66,5%), la 14 (67,0%), la 12 (74,1%) y la 8 (74,6%). Suponiendo población uniforme dentro de cada comuna, unas 440.000 personas (14,3%) viven a más de 2,5 km de un hospital general de agudos.
-- **Un radio de 10 km no sirve en CABA:** a partir de 5 km ya queda cubierta toda la ciudad y no se distingue entre comunas.
 
 ## Qué hace el notebook
 
